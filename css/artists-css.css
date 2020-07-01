@@ -1,0 +1,142 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  color: #777;
+}
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: -40px;
+    right: 0;
+    display: inline-flex;
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1em 2em 0;
+    border-radius: 50%;
+    padding: .25em;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    text-align: center;
+    text-decoration: none;
+  
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  &.hide {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+    svg {
+        fill: #000;
+        width: 24px;
+        height: 12px;
+    }
+
+    &:hover {
+        background-color: #E8E8E8;
+
+        svg {
+            fill: #000000;
+        }
+    }
+}  
+@font-face{
+  font-family: 'Metal-mania';
+  src:url('../fonts/metalmania-regular.ttf');
+}
+.bg1,.malcolm,.sumedh,.noel,.shriyans,.shubham,.kshitij,.abhilesh,.adithya,.kushal{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.art1{
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../artist/Art1.jpg");
+  min-height: 100%;
+  width: 100%
+}
+.bg1{
+  background-image: url("../artist/BG.jpg");
+  min-height: 200px;
+  opacity: 0.65;
+}
+.malcolm{
+  background-image: url("../artist/Malcolm.jpg");
+  min-height: 400px;
+}
+.sumedh{
+  background-image: url("../artist/Sumedh.jpg");
+  min-height: 400px;
+}
+.noel{
+  background-image: url("../artist/Noel.jpg");
+  min-height: 400px;
+}
+.shriyans{
+  background-image: url("../artist/Shriyans.jpg");
+  min-height: 400px;
+}
+.shubham{
+  background-image: url("../artist/Shubham.jpg");
+  min-height: 400px;
+}
+.kshitij{
+  background-image: url("../artist/Kshitij.jpg");
+  min-height: 400px;
+}
+.abhilesh{
+  background-image: url("../artist/Abhilesh.jpg");
+  min-height: 400px;
+}
+.adithya{
+  background-image: url("../artist/Adithya.jpg");
+  min-height: 400px;
+}
+.kushal{
+  background-image: url("../artist/Kushal.jpg");
+  min-height: 400px;
+}
+blockquote {
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 25px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 8em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.fa{
+  padding: 10px;
+  font-size: 50px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #125688;
+  color: white;
+}
+.fa-instagram:hover{
+   opacity: 0.7;
+}
+

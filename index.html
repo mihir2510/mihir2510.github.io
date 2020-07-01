@@ -1,5 +1,73 @@
-<html>
+<! DOCTYPE html>
+  <html lang="en-US">
+    <head>
+      <title>The Revivals</title>
+      <link rel="stylesheet" type="text/css" href="css/main-css.css">
+      <link rel="stylesheet" type="text/css" href="css/home-css.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script>
+        var music = new Audio();
+        music.src = "voice1.mp3";
+       function PlaySound() {
+          music.play();   
+        }
+       function PauseSound(){
+        music.pause();
+       }
+
+      </script>
+</head>
 <body>
-afgdgfdfh
-<body>
-</html>
+      <div class="head">
+       <h1>THE REVIVALS</h1>
+       <h3>.....Rock Off and Rave On</h3>
+      </div>
+      <div class="container teal" style="z-index: 1000;">
+       <nav class = " borderYtoX">
+         <ul>
+          <li><a href="index.html" target="_self">Home</a></li>
+          <li><a href="artists.html" target="_self">The Artists</a></li>
+          <li><a href="gallery.html" target="_self"> Gallery</a></li>>
+          <li><a href="contact.html" target="_self">Contact Us</a></li>
+         </ul>
+       </nav>
+      </div>
+      <div class="mar">
+         <marquee  behavior="alternate" bgcolor=red loop="-1" scrollamount="7" width="100%" height="30px" style: >Our latest cover is now released.Watch it <a href="https://www.youtube.com/watch?v=KdR3PgnGm2M">here</a>.
+         </marquee>
+       </div> 
+      <div >
+        <br>
+      </div>
+
+      <div><br></div>
+
+      <div id="cover">
+        <div class="controls"><audio id="music" ></audio>
+        <button class="btn" onclick="PlaySound()">Play</button>
+        <button class="btn" onclick="PauseSound()" style="margin-left: 15px;">Pause</button>
+       </div>
+       <img src="home/cover.jpg" >
+      </div> 
+      <div><br><br></div>
+      <div class="overview"><h2>Overview</h2></div>
+      <div class="details">
+        <br>
+        <h4>The Revivals ....</h4>
+            A band formed through the passion, hardwork and immense dedication of today's youth. Originating from the energised atmosphere of Fr. Conceicao Rodgrigues Institute of Technology, Vashi; the band has made its home in the hearts of all young and old.
+            <br>
+            <br>
+            The Revivals first performed in the estimed college fest viz.,ETAMAX 2020. This team of 7 members coming from different backgrounds are a promising future in the world of music.They hope to be one of the best bands and deliver their most in the upcoming gigs and events.
+            <br>
+            <br>
+            <blockquote>Music is what drives us....It is the essence of each of our lives....In a way,it is our soul</blockquote>
+
+        </div>
+        <div class="footer"> 
+          <p>
+            This website is a creation of <em> Vaidehi Bag </em>.<br><i> U want a website of your own...</i> Contact: <a href="mailto:vaidehi.work15@gmail.com"> Mail Here</a> or Dm here  <a href="https://www.instagram.com/vaidehi_bag/" target="_blank"><img src="instagram.png"></a>  
+          </p>  
+       </div>    
+    </body>	
+  </html> 
