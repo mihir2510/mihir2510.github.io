@@ -90,7 +90,7 @@ nav>marquee{
 
 }
 .footer{
-    background-color: #f24ecc;
+    background: linear-gradient(to bottom right, #9933ff 0%, #ff66cc 100%);
     left: 0;
     bottom: -30px;
     width: 100%;
