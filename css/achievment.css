@@ -1,0 +1,200 @@
+
+/**********tabs****************/
+
+.tab-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+a:hover {
+    color: #262626;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #262626;
+    color: white;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.tabs {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+@media (max-width: 508px) {
+    .tabs {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+/**********tab1****************/
+
+.achievement {
+    background-color: white;
+    margin: 1.5% 2% 1.5% 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.imageTop {
+    width: 100%;
+    height:200px;
+}
+
+.achievement-photo-container {
+    position: relative;
+    color: black;
+    margin-left: 40px;
+    margin: auto;
+    box-shadow: 4px 4px 20px -2px rgba(0, 0, 0, 0.3);
+}
+
+
+.achievement-title h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.achievement {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Raleway", sans-serif;
+    background-color: #ffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.322);
+}
+
+.position {
+    font-size: 20px;
+}
+
+.issue {
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.describe {
+    text-align: justify;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+@media (max-width:770px) {
+    .achievement {
+        margin: 1.5% 1% 1.5% 1%;
+    }
+    
+    .achievement {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: 0px;
+    }
+    .achievement-photo-container {
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .achievement-photo-container {
+        position: relative;
+    }
+    
+}
+
+
+@media (min-width:770px) {
+    .achievement-info {
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-right: 0px;
+    }
+}
+
+/**********tab2****************/
+
+#tab2 .card {
+    border: 1px solid var #b3b3ff;
+    margin-bottom: 20px;
+    transition: border 0.1s, transform 0.3s;
+}
+
+#tab2 .card .cert_tile {
+    font-size: 22px;
+    color: black;
+}
+
+#tab2 .card-img-top {
+    width: 100% !important;
+    height: 270px;
+}
+
+#tab2 .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/***************tab3***************/
+
+.card-part {
+    /* display: inline-block; */
+    margin:10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    transition: all .2s ease;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.card-part:hover, .card-part.hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-part-img img {
+    height: 200px;
+    /*width:320px;*/
+    background-color: #fff;
+    transition: opacity .2s ease;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width: 100%;
+}
+
+.card-part-content {
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid #E9E9EB;
+    transition: all .2s ease;
+}
+
+.card-part-content h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
