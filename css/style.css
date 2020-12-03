@@ -364,6 +364,7 @@ xclip
 #skills .card {
   padding: 10px;
   width: 200px;
+  margin-bottom: 15px;
   height: auto;
   border-radius: 10px;
   vertical-align: center;
