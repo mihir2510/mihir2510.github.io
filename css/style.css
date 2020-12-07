@@ -364,7 +364,7 @@ xclip
 #skills .card {
   padding: 10px;
   width: 200px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   height: auto;
   border-radius: 10px;
   vertical-align: center;
@@ -380,7 +380,7 @@ xclip
   color: #aebcb9;
   text-align: center;
   font-weight: bold;
-  margin: 10px auto;
+  margin: auto;
   text-transform: uppercase;
 }
 
