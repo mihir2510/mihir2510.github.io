@@ -36,6 +36,14 @@ html {
   max-width: 100%;
 }
 
+.video-title{
+margin-bottom: 5px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: black;
+}
+
 iframe
 {
   width:100%; 

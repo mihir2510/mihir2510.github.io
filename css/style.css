@@ -364,7 +364,7 @@ xclip
 #skills .card {
   padding: 10px;
   width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   height: auto;
   border-radius: 10px;
   vertical-align: center;
@@ -645,6 +645,7 @@ xclip
   #skills .card {
     width:100%;
     height: auto;
+  margin-top: -5px;
   }
   .main-timeline .timeline {
     margin-top: -19px;
