@@ -32,14 +32,13 @@ html {
 .video-item {
   position: relative;
   width: 25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   max-width: 100%;
 }
 
-.video-title{
-margin-bottom: 5px;
-  text-align: center;
-  font-size: 1rem;
+.video-title {
+  margin-bottom: 5px;
+  font-size: 16px;
   font-weight: 400;
   color: black;
 }
